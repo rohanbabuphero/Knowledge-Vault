@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 50px;
+    background-color: white;
+}
+.lgo {
+    display: flex;
+    gap: 10px;
+}
+.nav-menu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    text-decoration: double;
+
+}
+
+.btn{
+      background-color: #2f855a;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 7px;
+
+}
+.first-doctors{
+  height: 90vh;
+  background-color: aqua;
+  background-size: cover;
+  color:white;
+  display: flex;
+  align-items: center;
+  padding: 0 60px;
+  text-align: center;
+
+}
+.first-structured{
+    max-width: 600px
+}
+.early {
+
+    background-color: white;
+    color: green;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+.first-doctors h1{
+    font-size: 48px;
+    margin:20px 0;
+}
+.first-doctors h1 span {
+    color: #68d391;
+}
+.first-doctors p{
+    margin-bottom: 20px;
+
+}
+.first-buttons {
+    display: flex;
+    gap: 15px;
+}
+.secand{
+    text-align: center;
+    padding: 80px 60px;
+}
+.secand-pro{
+    color:gray;
+   margin: 10px 0 40px;
+
+}
+.secand-structureds{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap:20px;
+}
+.secand-structured {
+    background: #f9f9f9;
+    padding: 25px;
+    border-radius: 10px;
+
+}
+.card{
+    width: 50px;
+}
