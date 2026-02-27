@@ -32,6 +32,7 @@
 
 }
 .first-doctors{
+ background-image: url("D:/Web Programming/Assingment- 01/B13-A01-Knowledge-Vault/Sections/Banner.png"); 
   height: 90vh;
   background-color: aqua;
   background-size: cover;
@@ -77,17 +78,66 @@
    margin: 10px 0 40px;
 
 }
-.secand-structureds{
-    display: grid;
-    grid-template-columns: repeat(4 , 1fr);
-    gap:20px;
-}
-.secand-structured {
-    background: #f9f9f9;
-    padding: 25px;
-    border-radius: 10px;
 
+.problems {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 20px;
+  margin-top: 40px;
 }
-.card{
-    width: 50px;
+
+.card {
+
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #555;
+}
+
+
+
+
+
+
+.solution {
+    text-align: center;
+    padding: 80px 60px;
+    background: #fff;
+}
+.solution .tag {
+    color: green;
+    font-size: 12px;
+}
+.solution h2{
+    margin: 15px 0;
+}
+.solution ul{
+    margin-top: 20px;
+}
+.solution li{
+    margin-bottom: 10px;
+}
+.cta {
+    background:#f7f6f2;
+     padding: 80px 60px;
+     text-align: center;
+}
+.cta p {
+    margin: 15px 0;
+}
+.footer{
+    background: #0b1c2d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+
 }
